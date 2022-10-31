@@ -1,4 +1,4 @@
-# Proyecto-2-Reconocimiento-de-mi-Perro
+# Proyecto 2: Reconocimiento de mi Perro
 En este proyecto fueron creadas 2 Redes Convolucionales.
 
 -	La primera: Una red para identificar distintas razas de perros 
