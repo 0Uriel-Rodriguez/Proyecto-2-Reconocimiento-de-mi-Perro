@@ -105,7 +105,7 @@ Lo que sigue de la red es completamente lo mismo que vemos en el entrenamiento.
 
 Dándonos unos resultados excelentes, llegando a un aprendizaje del 99%, y ya solo falta poner a prueba nuestra red.
 
-#Evaluacion de red “CNN_Mydog”
+# Evaluacion de red “CNN_Mydog”
 Dentro del mismo documento “CNN_Mydog” procedemos a evaluar la red para ver si es que deverdad sabe diferenciar a mi perro de los demas o todos estos numeros que me saltaron en el aprendizaje fueron una mentira.
 
 Usando el código “model.predict()” lo que procedemos a hacer es cargar una imagen de nuestro perro o de otro perro, la reescalamos y le decimos que nos imprima si el resultado es  <0.5 es mi perro o si es >0.5 es otro perro esto es para no ser tan exigente con la red pero nos dio unos resultados muy buenos, para mi perro dio resultados de 0.14764893, 0.014218322, 0.16072845 y para otros perros unos resultados de  0.999968, 0.9201807 que se le apegan mucho al 1 y al 0 que queríamos en un principio.
