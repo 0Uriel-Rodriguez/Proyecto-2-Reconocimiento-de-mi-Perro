@@ -105,8 +105,15 @@ Lo que sigue de la red es completamente lo mismo que vemos en el entrenamiento.
 
 Dándonos unos resultados excelentes, llegando a un aprendizaje del 99%, y ya solo falta poner a prueba nuestra red.
 
+#Evaluacion de red “CNN_Mydog”
+Dentro del mismo documento “CNN_Mydog” procedemos a evaluar la red para ver si es que deverdad sabe diferenciar a mi perro de los demas o todos estos numeros que me saltaron en el aprendizaje fueron una mentira.
+
 Usando el código “model.predict()” lo que procedemos a hacer es cargar una imagen de nuestro perro o de otro perro, la reescalamos y le decimos que nos imprima si el resultado es  <0.5 es mi perro o si es >0.5 es otro perro esto es para no ser tan exigente con la red pero nos dio unos resultados muy buenos, para mi perro dio resultados de 0.14764893, 0.014218322, 0.16072845 y para otros perros unos resultados de  0.999968, 0.9201807 que se le apegan mucho al 1 y al 0 que queríamos en un principio.
 
+
+[![imagen-2022-11-03-162524179.png](https://i.postimg.cc/SN8QYHWy/imagen-2022-11-03-162524179.png)](https://postimg.cc/VdfP3GGT)
+
+¡¡¡Identificó a mi perro !!!
 # Conclusiones.
 Todo este proyecto me hizo pensar mucho en lo útiles que pueden llegar a ser esta clase de redes, pero también en que la cantidad de imágenes debe ser muy grande si hablamos de muchas clases. Así como que también necesito una maquina mas potente para poder hacer CNN mejores o mas bien para que tarde menos si hablamos del tiempo real. Sin duda alguna esta case de redes abren muchas puertas a la investigación y obviamente pueden llegar a ser muy útiles para los médicos en cuanto al uso de imágenes ya sean de rayos x , tomografías ,etc. Por eso Japón las esta usando de manera indiscriminada. Seria algo interesante el que pudiéramos hacer eso en México, pero sabiendo como están las cosas puede que siga solo siendo un sueño lejano.
 
