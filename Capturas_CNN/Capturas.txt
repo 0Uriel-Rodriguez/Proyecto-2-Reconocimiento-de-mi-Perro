@@ -1,0 +1,1 @@
+Aqui se encuentran las capturas de las 2 CNN. La evaluación de la segunda red se encontruentra en la segunda captura llamada "CNN_Mydog-Jupyter-Notebook"
